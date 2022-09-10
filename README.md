@@ -9,6 +9,6 @@ A Gesture based Tool for Sterile Browsing of Radiology Images
 
 # Team Members
 - Ganapathi Subramanian R
-- Elavarsan P
+- Elavarasan P
 - Divyadharshini S P
 - Mansi A
