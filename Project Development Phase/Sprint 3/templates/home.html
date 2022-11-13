@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200 mt-20">
+  <div class="text-3xl text-center	">A Gesture Based tool for Sterile Browsing</div>
+  <div class="text-xl text-center	"> <span class="font-medium">Radiology images</span></div>
+<div class="flex mr-[10vw] mt-16 justify-center">
+
+  <a href="{{ url_for('image1')}}">
+    <div class="w-64 text-center bg-gray-200">
+      <img class="w-full rounded-lg	shadow hover:shadow-lg" src="https://earimediaprodweb.azurewebsites.net/Api/v1/Multimedia/99054fc0-8439-4225-8bda-8fe7f14b74d5/Rendition/low-res/Content/Public"/>
+      <span class="font-bold" id ="b3">Launch</span>
+    </div>
+  </a>
+
+</div>
+</body>
+</html>
