@@ -21,11 +21,6 @@ print("Loaded model from disk")
 def home():
     return render_template('home.html')#rendering the home page
 
-
-@app.route('/intro') # routes to the intro page
-def intro():
-    return render_template('intro.html')#rendering the intro page
-
 @app.route('/image1',methods=['GET','POST'])# routes to the index html
 def image1():
     return render_template("launch.html")
